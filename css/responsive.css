@@ -1,0 +1,56 @@
+
+@media only screen and (max-widht: 640px){
+
+  body {
+    width: 100%;
+
+  }
+
+  .container{
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-principal {
+    width: 100%;
+    top: 0;
+    display: block;
+  }
+
+  .menu-principal ul li a {
+    display: none;
+    line-height: 0;
+  }
+
+  .menu-principal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .menu-principal a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px
+  }
+
+  nav img {
+      height: 20px;
+  }
+
+  .header-home {
+    margin-top: 90px;
+    height: 30vh;
+  }
+
+
+
+
+
+
+
+
+}
